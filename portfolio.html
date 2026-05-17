@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sudhir Yadav — Portfolio & Resume</title>
+  <meta name="description" content="Portfolio & Resume of Sudhir Yadav — MCA, Front-End Developer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#071022;--card:#0f1724;--muted:#94a3b8;--accent:#0ea5a4;--glass:rgba(255,255,255,0.03);--light:#f8fafc}
+    [data-theme='light']{--bg:#f7fafc;--card:#fff;--muted:#475569;--accent:#0b74ff}
+    *{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;color:var(--light);background:linear-gradient(180deg,#071022 0%, #071426 60%)}
+    body[data-theme='light']{color:#0b1220;background:var(--bg)}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800}
+    nav a{color:inherit;text-decoration:none;margin-left:14px;font-weight:600}
+    .hero{display:flex;gap:30px;align-items:center;padding:16px 0}
+    .hero-left{flex:1}
+    .hero-right{width:320px}
+    .profile-card{background:var(--card);padding:18px;border-radius:12px;border:1px solid var(--glass)}
+    img.avatar{width:100%;height:100%;object-fit:cover;border-radius:8px}
+    h1{margin:6px 0;font-size:28px}
+    p.muted{color:var(--muted);margin:6px 0}
+    .cta{display:flex;gap:12px;margin-top:8px}
+    .btn{background:var(--accent);color:#012; padding:10px 14px;border-radius:8px;border:none;cursor:pointer;text-decoration:none;font-weight:700}
+    section{margin-top:26px}
+    .section-row{display:flex;gap:20px}
+    .col{flex:1}
+    .col-40{width:40%}
+    .resume{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:10px}
+    .edu-item,.skill-list li,.project-list li{margin:8px 0}
+    .skill-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
+    .skill{background:var(--glass);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--light)}
+    [data-theme='light'] .skill{color:#0b1220}
+    .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+    .project-card{background:var(--card);padding:14px;border-radius:10px;border:1px solid var(--glass)}
+    footer{margin-top:30px;padding:18px 0;color:var(--muted);font-size:14px}
+    input,textarea,select,button{font-family:inherit}
+    .download-resume{display:inline-block;margin-top:8px}
+    pre.resume-text{white-space:pre-wrap;color:var(--muted);font-size:14px}
+    @media(max-width:900px){.section-row{flex-direction:column}.hero{flex-direction:column}.hero-right{width:100%}}
+  </style>
+</head>
+<body data-theme="dark">
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">SY</div>
+        <div>
+          <div style="font-weight:800">Sudhir Yadav</div>
+          <div style="font-size:13px;color:var(--muted)">MCA (2024) • Front-End Developer</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a> 
+      </nav>
+    </header><main>
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Hi, I  Am <strong>Sudhir Yadav</strong></h1>
+      <p class="muted">MCA graduate (2024). Front‑End developer with hands-on experience in HTML, CSS, JavaScript and modern front-end libraries. Interested in building clean, responsive and accessible user interfaces.</p>
+      <div class="cta">
+        <a class="btn download-resume" href="#resume" title="Download Resume">View Resume</a>
+        <a class="btn" href="#contact">Hire / Contact</a>
+      </div>
+
+      <div style="margin-top:12px" class="muted">Location: B-109, Vimal Nagar, KMTA, Chinhat, Lucknow — 226028</div>
+    </div>
+
+    <aside class="hero-right profile-card">
+      <div style="display:flex;gap:12px;align-items:center">
+        <div style="width:88px;height:88px;border-radius:10px;overflow:hidden;background:#222"><img class="avatar" src="pic.jpeg" alt="Sudhir Yadav"></div>
+        <div>
+          <div style="font-weight:700">Sudhir Yadav</div>
+          <div class="muted" style="font-size:13px">MCA • Front-End Developer</div>
+          <div style="margin-top:6px;font-size:13px"><a href="mailto:sudhiryadavhp1998@gmail.com" style="color:var(--light);text-decoration:none">sudhiryadavhp1998@gmail.com</a></div>
+          <div class="muted" style="font-size:13px">+91 73101 12643</div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+        <a class="skill">HTML</a>
+        <a class="skill">CSS</a>
+        <a class="skill">JavaScript</a>
+        <a class="skill">React</a>
+        <a class="skill">Redux</a>
+        <a class="skill">Bootstrap</a>
+        <a class="skill">Java</a>
+        <a class="skill">C</a>
+        <a class="skill">DBMS</a>
+        <a class="skill">Data Structures</a>
+      </div>
+
+      <div style="margin-top:12px;display:flex;gap:8px">
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </aside>
+  </section>
+
+  <section id="about">
+    <div class="section-row">
+      <div class="col resume">
+        <h3>About / Summary</h3>
+        <p class="muted">MCA (2024) graduate with solid foundation in front-end technologies and core computer science topics. Comfortable building responsive websites and small interactive applications. Looking for front-end roles or internships where I can contribute and learn industry best practices.</p>
+
+        <h4 style="margin-top:12px">Education</h4>
+        <div class="edu-item"><strong>MCA</strong> — 2024 — 69%</div>
+        <div class="edu-item"><strong>B.Sc</strong> — 2019 — 60%</div>
+        <div class="edu-item"><strong>12th (Intermediate)</strong> — 2015 — 69%</div>
+        <div class="edu-item"><strong>10th</strong> — 2013 — 80%</div>
+
+        <h4 style="margin-top:12px">Contact</h4>
+        <div class="muted">Address: B-109 Vimal Nagar, KMTA, Chinhat, Lucknow — 226028</div>
+        <div style="margin-top:6px"><a href="mailto:sudhiryadavhp1998@gmail.com" style="color:var(--light);text-decoration:none">sudhiryadavhp1998@gmail.com</a></div>
+        <div class="muted">Phone: +91 73101 12643</div>
+      </div>
+
+      <div class="col-40">
+        <div class="profile-card resume">
+          <h4 style="margin:0 0 8px">Quick Skills</h4>
+          <ul class="skill-list">
+            <li class="skill">HTML, Semantic Markup</li>
+            <li class="skill">CSS3, Flexbox, Grid</li>
+            <li class="skill">Responsive Design & Bootstrap</li>
+            <li class="skill">JavaScript (ES6+)</li>
+            <li class="skill">React + Redux (basic)</li>
+            <li class="skill">Git & GitHub</li>
+            <li class="skill">Java, C Programming</li>
+            <li class="skill">DBMS, Operating Systems, Data Structures</li>
+          </ul>
+
+          <h4 style="margin-top:10px">Tools</h4>
+          <div class="muted">VSCode • Chrome DevTools • Git • Netlify / GitHub Pages</div>
+
+          <h4 style="margin-top:10px">Languages</h4>
+          <div class="muted">English (Professional) • Hindi (Native)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Skills — Detail</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px">
+      <div class="profile-card">
+        <h4>Front-end</h4>
+        <div class="muted">HTML, CSS, JavaScript, Bootstrap, Responsive Design, Accessibility</div>
+      </div>
+      <div class="profile-card">
+        <h4>Frameworks</h4>
+        <div class="muted">React (basic), Redux (basic)</div>
+      </div>
+      <div class="profile-card">
+        <h4>Programming</h4>
+        <div class="muted">Java, C, Data Structures, Algorithms</div>
+      </div>
+      <div class="profile-card">
+        <h4>Computer Science</h4>
+        <div class="muted">DBMS, Operating Systems, Networking fundamentals</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3>Project Portfolio</h3>
+    <p class="muted">Selected projects — demos, code and short descriptions.</p>
+
+    <div class="projects-grid" style="margin-top:12px">
+      <div class="project-card">
+        <h4>Calculator</h4>
+        <p class="muted">A responsive calculator built with HTML, CSS and vanilla JavaScript. Supports basic arithmetic, percentage and clear functionality.</p>
+        <div style="margin-top:8px"><a class="btn" href="#" onclick="alert('Demo not hosted — import project files to run locally')">Live Demo</a></div>
+      </div>
+
+      <div class="project-card">
+        <h4>Bat-Ball Game (Simple)</h4>
+        <p class="muted">A small browser game prototype using canvas and JavaScript. Player controls bat to hit the ball — demonstrates event handling and animation loop.</p>
+        <div style="margin-top:8px"><a class="btn" href="https://sudhiy.github.io/bat-ball-gamr/">View Code</a></div>
+      </div>
+
+      <div class="project-card">
+        <h4>Basic Frontend Website parallax web</h4>
+        <p class="muted">A small business landing page with responsive layout, nav, hero and contact form. Built using HTML & Bootstrap.</p>
+        <div style="margin-top:8px"><a class="btn" href="https://sudhiy.github.io/parallax-websitr/">Preview</a></div>
+      </div>
+
+      <div class="project-card">
+        <h4>Basic Frontend Website A .p j.Abdul kalam</h4>
+        <p class="muted">An informational website with cards, grid gallery and optimized images. Focus on accessibility and performance.</p>
+        <div style="margin-top:8px"><a class="btn" href="https://sudhiy.github.io/A-P-J-Abdul-kalam/">Preview</a></div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px" class="muted">Note: I can prepare live demos and GitHub repositories for each project — tell me which projects you want deployed first.</div>
+  </section>
+
+  <section id="resume">
+    <h3>Resume</h3>
+    <div class="section-row" style="align-items:flex-start">
+      <div class="col">
+        <div class="resume">
+          <h4 style="margin-top:0">Sudhir Yadav</h4>
+          <div class="muted">Email: <a href="mailto:sudhiryadavhp1998@gmail.com" style="color:var(--light);text-decoration:none">sudhiryadavhp1998@gmail.com</a> • Phone: +91 73101 12643</div>
+          <div class="muted">Address: B-109 Vimal Nagar, KMTA, Chinhat, Lucknow — 226028</div>
+
+          <h4 style="margin-top:10px">Education</h4>
+          <ul style="margin:6px 0 0 16px;color:var(--muted)">
+            <li>MCA — 2024 — 69%</li>
+            <li>B.Sc — 2019 — 60%</li>
+            <li>12th — 2015 — 69%</li>
+            <li>10th — 2013 — 80%</li>
+          </ul>
+
+          <h4 style="margin-top:10px">Technical Skills</h4>
+          <pre class="resume-text">HTML, CSS, JavaScript, Bootstrap, React (basic), Redux (basic), Git, Java, C, DBMS, OS, Data Structures</pre>
+
+          <h4 style="margin-top:10px">Projects (short)</h4>
+          <ul style="margin:6px 0 0 16px;color:var(--muted)">
+            <li>Calculator — JS calculator with responsive UI</li>
+            <li>Bat-Ball Game — Canvas based interaction and animation</li>
+            <li>Basic Frontend Site #1 — Landing page with Bootstrap</li>
+            <li>Basic Frontend Site #2 — Informational site with gallery</li>
+          </ul>
+
+          <h4 style="margin-top:10px">Objective</h4>
+          <p class="muted">To obtain a front-end developer role/internship where I can apply my web development skills, build real products and continue learning modern frameworks and best practices.</p>
+
+          <a class="btn" href="#" download="Sudhir_Yadav_Resume.pdf">Download Resume (PDF)</a>
+        </div>
+      </div>
+
+      <div class="col-40">
+        <div class="profile-card">
+          <h4>Achievements & Certificates</h4>
+          <div class="muted">• MCA Degree (2024) • Various course certificates in Web Development</div>
+          <h4 style="margin-top:10px">Availability</h4>
+          <div class="muted">Available for internships / remote freelance projects • Open to relocation</div>
+        </div>
+
+        <div class="profile-card" style="margin-top:12px">
+          <h4>Preferences</h4>
+          <div class="muted">Role: Front‑End Developer / UI Developer • Employment: Internship / Full-time</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap">
+      <a class="btn" href="mailto:sudhiryadavhp1998@gmail.com">Email</a>
+      <a class="btn" href="#contactForm">Contact Form</a>
+      <a class="btn" href="#resume">Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 <strong>Sudhir Yadav</strong> • Built with HTML/CSS/JS
+  </footer>
+</main>
+
+  </div>  <script>
+    // Theme toggle via double click on logo (quick simple)
+    const logo = document.querySelector('.logo');
+    logo.addEventListener('dblclick', ()=>{
+      const cur = document.body.getAttribute('data-theme')||'dark';
+      document.body.setAttribute('data-theme', cur==='dark'?'light':'dark');
+    });
+
+    // Smooth scroll for nav
+    document.querySelectorAll('nav a').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault(); const href = a.getAttribute('href'); if(href && href.startsWith('#')) document.querySelector(href).scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script></body>
+</html>
